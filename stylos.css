@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item img{
+    height: 450px;
+}
+.tarjetas{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+   
+}
+.card-0{
+    text-align: center;
+    
+   
+}
+.card-title{
+    text-transform: capitalize;
+}
+
+.card-0 img{
+padding-top: 20px;
+max-width: max-content;
+width: 60px;
+height: 60px;
+margin: 0 auto;
+
+}
+h1{
+   text-transform: capitalize; 
+   font-weight: bold;
+   text-align: center;
+  padding-top: 40px;
+}
+.consultas-examenes{
+    display: flex;
+ justify-content:space-around;
+ padding: 30px;
+}
+.tarjetas-agenda-de-horas{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.segundo-titulo{
+    padding: 30px;
+    text-align: center;
+}
+.segundo-titulo p{
+    font-size: 20px;
+}
+
+.terceras-tarjetas{
+display: flex;
+gap: 30px;
+justify-content: center;
+padding-top: 30px;
+}
+
+.cuarta-tarjetas{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.sellos{
+    text-align: center;
+    padding: 30px;
+    padding-top: 40px;
+}
+.sellos img{
+width: 150px;
+height: 150px;
+}
