@@ -1,27 +1,24 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 body{
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 .carousel-item img{
-    height: 450px;
+height: 450px;
 }
 .tarjetas{
-    display: flex;
-    gap: 15px;
-    padding: 20px;
-   
+display: flex;
+gap: 15px;
+padding: 20px;
 }
 .card-0{
-    text-align: center;
-    
-   
+text-align: center;
 }
 .card-title{
-    text-transform: capitalize;
+text-transform: capitalize;
 }
 
 .card-0 img{
@@ -30,30 +27,30 @@ max-width: max-content;
 width: 60px;
 height: 60px;
 margin: 0 auto;
-
 }
+
 h1{
-   text-transform: capitalize; 
-   font-weight: bold;
-   text-align: center;
-  padding-top: 40px;
+text-transform: capitalize; 
+font-weight: bold;
+text-align: center;
+padding-top: 40px;
 }
 .consultas-examenes{
-    display: flex;
- justify-content:space-around;
- padding: 30px;
+display: flex;
+justify-content:space-around;
+padding: 30px;
 }
 .tarjetas-agenda-de-horas{
-    display: flex;
-    gap: 20px;
-    padding: 30px;
+display: flex;
+gap: 20px;
+padding: 30px;
 }
 .segundo-titulo{
-    padding: 30px;
-    text-align: center;
+padding: 30px;
+text-align: center;
 }
 .segundo-titulo p{
-    font-size: 20px;
+font-size: 20px;
 }
 
 .terceras-tarjetas{
@@ -64,14 +61,14 @@ padding-top: 30px;
 }
 
 .cuarta-tarjetas{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
+display: flex;
+gap: 30px;
+justify-content: center;
 }
 .sellos{
-    text-align: center;
-    padding: 30px;
-    padding-top: 40px;
+text-align: center;
+padding: 30px;
+padding-top: 40px;
 }
 .sellos img{
 width: 150px;
@@ -79,46 +76,44 @@ height: 150px;
 }
 
 .footer{
-    background-color: rgb(119, 144, 232);
-    display:flex;
-    justify-content: center;
-    margin-top: 30px;
-    padding: 40px;
-    text-align: justify;
-    color: white;
-    font-size: 15px;
-    gap: 30px;
+background-color: rgb(119, 144, 232);
+display:flex;
+justify-content: center;
+margin-top: 30px;
+padding: 40px;
+text-align: justify;
+color: white;
+font-size: 15px;
+gap: 30px;
 }
 .footer li{
- list-style-type: square;
+list-style-type: square;
 }
 
 .footer a{
-    text-decoration: none;
-    color: white;
+text-decoration: none;
+color: white;
 }
 .fc-img{
-    margin-top: 20px;
-    
+margin-top: 20px;
+
 }
 .footer img{
-    width: 40px;
-    height: 40px;
-    
+width: 40px;
+height: 40px;
+
 }
 .parrafo-footer{
-    margin-top: 30px;
-  
-   
+margin-top: 30px;
 }
 .footer-links {
-    display: flex;
-    position: absolute;
-    gap: 10px; /* Espacio entre los elementos */
-    padding: 10px;
-  }
-  
-  .footer-links p {
-    margin: 0; /* Eliminar el margen predeterminado de los párrafos */
-  }
-  
+display: flex;
+position: absolute;
+gap: 10px; /* Espacio entre los elementos */
+padding: 10px;
+}
+
+.footer-links p {
+margin: 0; /* Eliminar el margen predeterminado de los párrafos */
+}
+
