@@ -69,6 +69,43 @@ padding: 0;
 /* termino del menu de navegacion */
 
 /* inicio de segundo menu de navegacion */
+
+/* submenu-prueba */
+ 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .submenu-item {
+    position: relative;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .submenu-item:hover .submenu {
+    display: block;
+    z-index: 1;
+  }
+  
+  .submenu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+  }
+/* termino submenu-prueba */
+
 .container-2{
     display: flex;
     justify-content: space-around;
