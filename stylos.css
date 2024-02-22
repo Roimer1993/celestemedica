@@ -99,10 +99,12 @@ ul {
   }
   
   .submenu a {
-    display: block;
+    /* display: block; */
     padding: 10px;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    
   }
 /* termino submenu-prueba */
 
@@ -120,12 +122,15 @@ ul {
 }
 .barra-nav ul a{
     text-decoration: none;
-    color: black;
-    
-    
+    color: black;  
+}
+.barra-nav ul li{
+  padding: 10px;
 }
 .barra-nav ul a :hover{
     background-color: aqua;
+   
+  
 }
 .container-2 img{
     width: 150px;
